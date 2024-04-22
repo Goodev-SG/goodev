@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <nav className="flex flex-row sm:justify-between mb-5 sm:mb-20 items-center">
+    <nav className="flex flex-row sm:justify-between mb-16 sm:mb-20 items-center">
       <div className="">
         <Link href="/">
           <h1 className="text-3xl font-karla">GooDev</h1>
