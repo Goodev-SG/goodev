@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Karla } from "next/font/google";
 import "../styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const karla = Karla({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GooDev",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="px-5 py-5 sm:px-36 sm:py-10">{children}</body>
     </html>
   );
 }
