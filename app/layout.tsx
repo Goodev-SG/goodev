@@ -6,7 +6,7 @@ const karla = Karla({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GooDev",
-  description: "Whatever",
+  description: "Your Web, Your Way",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="px-5 py-5 sm:px-36 sm:py-10">{children}</body>
+      <body className="px-8 py-5 sm:px-36 sm:py-10">{children}</body>
     </html>
   );
 }
