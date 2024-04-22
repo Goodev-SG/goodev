@@ -16,13 +16,13 @@ const Nav = () => {
             <Link href={"/"}>Home</Link>
           </li>
           <li className="text-lg hover:text-purple-600 font-karla">
-            <Link href={"/Services"}>Services</Link>
+            <Link href={"/services"}>Services</Link>
           </li>
           <li className="text-lg hover:text-purple-600 font-karla">
-            <Link href={"/About"}>About</Link>
+            <Link href={"/about"}>About</Link>
           </li>
           <li className="text-lg hover:text-purple-600 font-karla">
-            <Link href={"/Contact"}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>
