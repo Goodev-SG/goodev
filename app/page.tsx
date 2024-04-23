@@ -2,6 +2,7 @@ import Nav from "@/components/nav";
 import Line from "@/components/line";
 import Services from "@/components/services";
 import Traits from "@/components/traits";
+import Footer from "@/components/footer";
 
 const Home = () => {
   return (
@@ -65,6 +66,7 @@ const Home = () => {
           <img src="unDrawWeb.svg" width={600} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
