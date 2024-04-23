@@ -29,6 +29,7 @@ const Services = () => {
         title="Hosting and Domain Service"
         description="asdf"
       />
+      <Service image="" title="Website Development" description="asdf" />
     </div>
   );
 };
