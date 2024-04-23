@@ -25,6 +25,8 @@ const Home = () => {
           for those who are looking out for a reliable car repair.
         </p>
         <Services />
+        <h1 className="text-4xl font-black font-karla mt-32">Who We Are?</h1>
+        <Line size={10} mb={5} />
       </div>
     </div>
   );
