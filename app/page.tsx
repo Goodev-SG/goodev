@@ -1,13 +1,10 @@
-import Nav from "@/components/nav";
 import Line from "@/components/line";
 import Services from "@/components/services";
 import Traits from "@/components/traits";
-import Footer from "@/components/footer";
 
 const Home = () => {
   return (
     <div>
-      <Nav />
       <div className="flex flex-col items-center px-8 py-5 sm:px-36 sm:py-10">
         <h1 className="text-5xl font-black font-karla mb-5 mt-24">
           Your Web, Your Way
@@ -66,7 +63,6 @@ const Home = () => {
           <img src="unDrawWeb.svg" width={600} />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

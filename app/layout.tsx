@@ -1,3 +1,5 @@
+import Nav from "@/components/nav";
+import Footer from "@/components/footer";
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "../styles/globals.css";
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
